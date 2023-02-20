@@ -1,0 +1,39 @@
+.container{
+max-width: 900px;
+margin: 0 auto;
+padding: 0 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container-div{
+width: 40rem;
+border: 1ps solid gray;
+padding: 1rem;
+background-color: rgb(176, 173, 230);
+color: rgb(12, 3, 3);
+text-align: center;
+border-radius: 5px;
+}
+.container-div > *{
+    margin-bottom: 2rem;
+}
+.count{
+    font-size: 4rem;
+}
+.buttons button{
+    padding: 1rem;
+    margin: 0 1rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+button.subtract{
+    background-color: orangered;
+}button.reset{
+    background-color: white;
+    color: black;
+}button.add{
+    background-color:green;
+}
